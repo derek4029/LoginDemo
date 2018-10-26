@@ -21,7 +21,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		
 		mUserName = (TextView)findViewById(R.id.main_text_username);
 		
-		Intent intent = getIntent();
+		Intent intent = getIntent();  
 		String userName = intent.getStringExtra("username");
 		mUserName.setText(userName);
 	}

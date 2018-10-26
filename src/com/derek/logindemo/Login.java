@@ -16,7 +16,7 @@ public class Login extends Activity implements OnClickListener {
 	private EditText mAccount; 
 	// 密码编辑
 	private EditText mPwd; 
-	// 注册按钮
+	// 注册按钮 
 	private Button mRegisterButton; 
 	// 登录按钮
 	private Button mLoginButton; 
